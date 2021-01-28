@@ -1,86 +1,82 @@
+html {
+	padding: 3% 10% 10% 10%;
+	background-image: url(Fundo.jpg)
+}
+
 header {
-	background: #BBBBBB;
 	padding: 25px 25px 25px 25px;
 }
 
+
 .foto-perfil {
 	float: left;
-    margin: 0px 15px 10px 0;
+    margin: 5px 15px 10px 0;
+	width: 180px;
+	border-radius: 75%;
+}
+
+.foto-perfil:hover {
 	width: 210px;
+	margin: 0px 15px 10px 0;
+	transition: 0.5s all;
 }
 
 .nome {
 	font-size: 50px;
-	font-weight: bold;
 	display: inline-block;
-	font-family: 'Josefin Sans', sans-serif;
 }
 
 .logo {
-	width: 25px;
+	width: 20px;
 	padding: 0 0 0 8px;
 	display: inline;
 }
 
 .logo:hover {
-	width: 30px;
-	transition: 0.5s all;
+	width: 23px;
+	transition: 0.2s all;
 }
 
-.dados {
+.funcao{
 	font-size: 40px;
 	display: inline;
-	font-family: 'Roboto', sans-serif;
+	color: green;
 }
 
-body {
-	background: #DDDDDD;
-}
-
-.quebra {
-	padding: 5px;
-	background: #000000;
-	margin: 0;
+.dado {
+	font-size: 30px;
+	color: #444444;
+	display: inline-block;
+	width: 40%
 }
 
 .titulo {
-	font-size: 40px;
+	font-size: 30px;
+	display: inline-block;
+	color: green;
 	font-weight: bold;
-	padding: 5px 0 5px 25px;
-	font-family: 'Josefin Sans', sans-serif;
+	padding: 0px 0px 10px 0px;
+}
+
+.subtitulo{
+	font-size: 25px;
+	font-weight: bold;
+	display: inline
+}
+
+.item {
+	font-size: 25px;
+	color: #444444;
+	display: inline
+}
+
+.subitem{
+	font-size: 25px;
+	color: #444444;
 }
 
 .texto {
 	font-size: 25px;
-	padding: 5px 0 5px 15px;
-	font-family: 'Roboto', sans-serif;
-}
-
-.profissao {
-	font-size: 30px;
+	padding: 0px 0px 10px 0px;
 	font-weight: bold;
-	padding: 3px 0 3px 15px;
-	font-family: 'Roboto', sans-serif;
-}
-
-.cargo {
-	font-size: 25px;
-	padding: 3px 0 3px 30px;
-	font-family: 'Roboto', sans-serif;
-}
-
-.principais-atividades {
-	font-size: 25px;
-	padding: 3px 0 3px 30px;
-	font-family: 'Roboto', sans-serif;
-}
-
-.atividades {
-	font-size: 25px;
-	padding: 3px 0 3px 30px;
-	font-family: 'Roboto', sans-serif;
-}
-
-ul {
-	margin: 0 0 25px 0;
 }
