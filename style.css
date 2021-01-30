@@ -3,7 +3,7 @@ html {
 	background-image: url(Fundo.jpg)
 }
 
-header {
+.caixa {
 	padding: 25px 25px 25px 25px;
 }
 
@@ -16,8 +16,8 @@ header {
 }
 
 .foto-perfil:hover {
-	width: 210px;
-	margin: 0px 15px 10px 0;
+	width: 190px;
+	margin: 0px 10px 10px 0;
 	transition: 0.5s all;
 }
 
@@ -26,13 +26,23 @@ header {
 	display: inline-block;
 }
 
-.logo {
+.logos .logo {
+	width: 25px;
+	padding: 0 0 0 8px;
+}
+
+.logos .logo:hover {
+	width: 28px;
+	transition: 0.2s all;
+}
+
+.dado .logo {
 	width: 20px;
 	padding: 0 0 0 8px;
 	display: inline;
 }
 
-.logo:hover {
+.dado .logo:hover {
 	width: 23px;
 	transition: 0.2s all;
 }
@@ -73,6 +83,17 @@ header {
 .subitem{
 	font-size: 25px;
 	color: #444444;
+}
+
+.atividade{
+	font-size: 25px;
+	color: #444444;
+}
+
+.descricao{
+	font-size: 25px;
+	color: #444444;
+	padding: 0 0 10px 20px;
 }
 
 .texto {
